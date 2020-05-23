@@ -14,12 +14,12 @@ def advanced_pie():
     n = [0.9, 1, 0.6, 1.6, 0.4]
 
     # explode: to pull part from the center
-    # use np (numpy) to create an araay 
-    # np.<number ending with s>(size of array) e.g. np.zeros(label.size)
+    # use np (numpy) to create an array 
+    # np.<number ending with 's'>(size of array) e.g. np.zeros(label.size)
     # create an array containing all of zeros is the same size as label size.
     explode = np.zeros(label.size)
 
-    # can config with any way e.g.
+    # can config with e.g.
     # - explode[3] = 0.1
     # - explode[np.where(label == 'China')] = .1
 
