@@ -15,7 +15,7 @@ def advanced_pie():
 
     # explode: to pull part from the center
     # use np (numpy) to create an array 
-    # np.<number ending with 's'>(size of array) e.g. np.zeros(label.size)
+    # np.<number ending with 's' >(size of array) e.g. np.zeros(label.size)
     # create an array containing all of zeros is the same size as label size.
     explode = np.zeros(label.size)
 
