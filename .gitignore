@@ -1,2 +1,2 @@
-./my_env/*
-./.vscode/*
+my_env/*
+.vscode/*
