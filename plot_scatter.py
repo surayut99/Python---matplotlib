@@ -22,3 +22,4 @@ def scatter_plot():
 
 if __name__ == "__main__":
     scatter_plot()
+    x = 5
